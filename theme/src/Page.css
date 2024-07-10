@@ -1,0 +1,56 @@
+.main-container{
+    color:whitesmoke;
+    /* background-color: darkmagenta; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+background-color:var(--background-color);
+    align-items: center;
+}
+.main-container h2{
+    font-size: 18px;
+    /* text-align: center; */
+    padding: 5%;
+    color: var(--foreground-color);
+
+}
+.main-container .button{
+    height: 8vh;
+    width: 100%;
+    /* margin: auto;
+    background-color: bisque; */
+}
+.main-container Button{
+    height: 5vh;
+    /* text-align: center;
+    justify-content: center; */
+    width: 10%;
+    margin: auto;
+    margin-left: 45%;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: var( --foreground-color);
+    /* text-align: center; */
+    background-color: var(--toggle-fg);
+
+}
+:root{
+    --background-color:rgb(19, 88, 93);
+    --foreground-color:pink;
+    --primary-text-color:red;
+      --secondary-text-color:purple;
+      --toggle-bg:brown;
+      --toggle-fg:yellow;
+  
+  }
+[data-theme='dark']{
+    --background-color:black;
+    --foreground-color:blue;
+    --primary-text-color:white;
+      --secondary-text-color:#b16629;
+      --toggle-bg:#B99095;
+      --toggle-fg:#B5E5CF;
+
+}

@@ -1,0 +1,40 @@
+.toggle-container{
+    position: absolute;
+    top: 2em;
+    right: 2em;
+}
+.toggle{
+    visibility: hidden;
+}
+.toggle+label{
+    display: flex;
+    cursor: pointer;
+    font-size: 15px;
+    color: var(--toggle-bg);
+    align-items: center;
+}
+.toggle+label::before{
+    content: '';
+    height: 3vh;
+    font-size: 14px;
+    width: 3em;
+    border-radius: 7px;
+    /* padding: 1%; */
+    margin-right: 5%;
+    background-color: var(--toggle-bg);
+
+}
+.toggle+label::after{
+    content: '';
+    height: 0.8em;
+    position: absolute;
+    width: 0.8em;
+    border-radius: 7px;
+    left: 0.4em;
+    margin-right: 5%;
+    background-color: var(--toggle-fg);
+
+}
+.toggle:checked+label::after{
+    transform: translateX(150%);
+}

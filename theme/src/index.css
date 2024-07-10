@@ -1,0 +1,16 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* :root{
+  --background-color:rgb(36, 160, 36);
+  --foreground-color:pink;
+  --primary-text-color:red;
+    --secondary-text-color:purple;
+    --toggle-bg:brown;
+    --toggle-fg:yellow;
+
+} */
